@@ -1,0 +1,12 @@
+<div>
+	<h1>Removing salary</h1>
+	<select ng-model="currentWorker">
+		<option ng-repeat = "item in workers">{{ item.lastname }}</option>
+	</select>
+	<h1>{{ currentWorker }}</h1>
+	<p>
+		Remove Salary:	<input ng-model="removeSum" type="text"/>
+	<input ng-click="removeSalary();" type="button" value="Remove!"/>
+</p>
+
+</div>

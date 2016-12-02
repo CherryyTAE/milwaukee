@@ -1,0 +1,20 @@
+<div>
+
+	<h1>New worker creating</h1>
+	<p></p>
+
+	<p>
+		Lastname:<input ng-model="lastname" type="text" name="name" value=""/>
+	</p>
+	<p>
+		id:	<input ng-model="id" type="text"/>
+	</p>
+<p>
+	<input ng-click="createWorkers();" type="button" value="Push me"/>
+	<br/>
+
+</p>
+
+<h3>Last inserted is -   {{ workers[workers.length-1].lastname }}</h3>
+
+</div>

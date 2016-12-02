@@ -1,0 +1,42 @@
+/**
+* All these styles is used to built layout and loading animation for demo page
+* It's not apart of angular module.
+*/
+.center {
+  text-align: center;
+}
+.small {
+  font-size:12px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.wrapper {
+  text-align: center;
+}
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+.feed-item{
+  overflow: hidden;
+}
+
+.feed-photos {
+  position: relative;
+  min-height: 100px;
+}
+
+.feed-photos.loading::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.6) url("loader.gif") center center no-repeat;
+  left:0;
+  top:0;
+  position: absolute;
+
+}
+.feed-photos.loading .grid-cell-image{
+  width: 100%;
+}

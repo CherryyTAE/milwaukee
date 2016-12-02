@@ -1,0 +1,12 @@
+<div>
+	<h1>Vacaton List</h1>
+<input ng-click="VacationWorkers()" type="button" value="Click to Generate"/>
+	<table width="75%"  border="0" >
+		<tr>
+			<td>lastname</td> <td>id</td><td>salary</td>
+		</tr>
+		<tr ng-repeat="x in VacationList">
+			<td>{{x.lastname}}</td> <td>{{x.id}}</td><td>{{x.salary}}</td>
+		</tr>
+	</table>
+</div>

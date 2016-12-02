@@ -1,0 +1,12 @@
+<div>
+	<h1>List of all workers</h1>
+		<input ng-click="allWorkers()" type="button" value="Click to Expand"/>
+<table width="75%"  border="0" >
+	<tr>
+		<td>lastname</td> <td>id</td><td>salary</td>
+	</tr>
+	<tr ng-repeat="x in ChildWorkers">
+		<td>{{x.lastname}}</td> <td>{{x.id}}</td><td>{{x.salary}}</td>
+	</tr>
+</table>
+</div>
