@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "my server ever",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "^1.13.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tajimetov/WebAppServer.git"
+  },
+  "author": "Tajimetov Nurislom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tajimetov/WebAppServer/issues"
+  },
+  "homepage": "https://github.com/Tajimetov/WebAppServer#readme"
+}
